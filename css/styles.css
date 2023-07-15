@@ -1,0 +1,88 @@
+html {
+  font-family: Helvetica;
+  background-color: #202020;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  background-color: #555555;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 50px;
+  margin: 50px;
+  position: relative;
+  border-radius: 2em;
+  border-bottom: 10px solid #1a1a1a;
+  border-right: 10px solid #1a1a1a;
+}
+
+.destaque {
+  font-weight: bold;
+}
+
+.cabecalho {
+  text-align: center;
+}
+
+.titulo-principal {
+  font-size: 40px;
+}
+
+.paragrafo-principal {
+  font-style: italic;
+}
+
+.img-destaque {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.img-destaque img {
+  border-bottom: 10px solid rgb(48, 48, 48);
+  border-right: 10px solid rgb(48, 48, 48);
+  border-radius: 2em;
+}
+
+.biografia-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.frase-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 2em;
+  background-color: rgb(83, 83, 83);
+  color: white;
+  padding: 30px;
+  border-bottom: 10px solid rgb(48, 48, 48);
+  border-right: 10px solid rgb(48, 48, 48);
+}
+
+.frase-container iframe {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2em;
+  border-bottom: 10px solid rgb(48, 48, 48);
+  border-right: 10px solid rgb(48, 48, 48);
+}
+
+.frase-container blockquote {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.frase-container p {
+  font-style: italic;
+}
+
+.curiosidades-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
